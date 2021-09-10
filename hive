@@ -1,1 +1,28 @@
-
+1、基本概念
+1.1 UDTF
+    UDTF(User-Defined Table-Generating Functions) 用来解决输入一行输出多行(On-to-many maping) 的需求。
+  使用方式
+    UDTF有两种使用方法，一种直接放到select后面，一种和lateral view一起使用。
+    
+    
+Lateral View
+  MaxCompute支持通过Lateral View与UDTF（表生成函数）结合，将单行数据拆成多行数据，即行转列。使用Lateral View拆分行数据，并执行聚合操作。
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    https://www.alibabacloud.com/help/zh/doc-detail/87722.htm
